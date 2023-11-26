@@ -11,10 +11,10 @@ import (
 
 type Person struct
 {
-    Id string `json:"id"`
-    Name string `json:"name"`
-    Email string `json:"email"`
-    CreatedAt time.Time `json:"createdAt"`
+    Id        string       `json:"id"`
+    Name      string       `json:"name"`
+    Email     string       `json:"email"`
+    CreatedAt time.Time    `json:"createdAt"`
     UpdatedAt sql.NullTime `json:"updatedAt"`
 }
 
